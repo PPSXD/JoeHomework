@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myFont;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(fontstyle/BOD_R.TTF);
+    }
+
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    overflow: hidden;
+    padding: 20px;
+    align-items: center; 
+    gap: 0;
+}
+
+
+@media(min-width:1033px){
+
+.about-photo {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    
+}
+
+.about-info {
+    margin-bottom: 20px;
+    p, h3{
+        margin-bottom: 20px;
+    }
+    font-size: 22px;
+}
+}
+@media(max-width:1033px){
+    .about-center{
+        max-width: 768px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .about-photo{
+        width: 100%;
+        height: 75%;
+    }
+    .about-info {
+        margin-bottom: 20px;
+        p, h3{
+            margin-bottom: 20px;
+        }
+        font-size: 25px;
+    }
+}
+
+
+@media(min-width:1033px){
+
+    .service-photo-v1 {
+        width: 120%;
+        height: 70%;
+        position: relative;
+        
+    }
+
+    .service-photo-v2 {
+        width: 100%;
+        height: 70%;
+        position: relative;
+        
+    }
+    
+    .service-info {
+        margin-bottom: 20px;
+        p, h3{
+            margin-bottom: 20px;
+        }
+        font-size: 22px;
+        padding: 30px;
+    }
+    }
+    @media(max-width:1033px){
+        .service-center{
+            max-width: 768px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+
+        }
+        .service-photo-v1{
+            width: 100%;
+            height: 75%;
+        }
+        .service-photo-v2{
+            width: 100%;
+            height: 75%;
+        }
+        .service-info {
+            margin-bottom: 20px;
+            p, h3{
+                margin-bottom: 20px;
+            }
+            font-size: 25px;
+        }
+    }
+
+    @media(min-width:1033px){
+
+        .work-photo {
+            width: 100%;
+            height: 70%;
+            position: relative;
+            
+        }
+        
+        .work-info {
+            margin-bottom: 20px;
+            p, h3{
+                margin-bottom: 20px;
+            }
+            font-size: 22px;
+        }
+        }
+        @media(max-width:1033px){
+            .work-center{
+                max-width: 768px;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: 1fr;
+        
+            }
+            .work-photo{
+                width: 100%;
+                height: 75%;
+            }
+            .work-info {
+                margin-bottom: 20px;
+                p, h3{
+                    margin-bottom: 20px;
+                }
+                font-size: 25px;
+            }
+        }
