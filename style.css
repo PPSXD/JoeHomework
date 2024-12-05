@@ -176,14 +176,24 @@ h1{
         
     @media(min-width:1033px){
 
+        .contact-img{
+            padding: 30px;
+        }
+
         .contact-photo {
             width: 50px;
             height: 50px;
             position: relative;
             
         }
+
+        /* New line*/
+        .contact-photo-v2{
+            width: 45%; padding: 20px;
+        }
+        /* New line*/
         
-        .contact-info {
+                .contact-info {
             margin-bottom: 20px;
             p{
                 margin-bottom: 20px;
@@ -191,7 +201,9 @@ h1{
             }
             font-size: 35px;
         }
-
+        .map{
+        margin: auto;text-align: center; padding: 20px;
+        }
         .container{
             display: flex;
             gap: 5px;
