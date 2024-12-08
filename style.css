@@ -571,8 +571,6 @@ h1{
         cursor: pointer;
     }
 }
-
-
 @media(min-width:1033px){
     .section-center.featured-center{
         display: flex;
