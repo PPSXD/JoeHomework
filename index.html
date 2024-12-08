@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: white;">
     
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="index.html"><img src="logo.jfif" class="logo-link" alt="logo"></a>
+        </div>
+
+        <div class="nav-links">
+            <ul class="nav-list" id="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a><span class="line">|</span></li>
+                <li><a href="about.html" class="nav-link">About Us </a><span class="line">|</span></li>
+                <li><a href="service.html" class="nav-link">Our Service</a><span class="line">|</span></li>
+                <li><a href="WorkOfUs.html" class="nav-link">Career</a><span class="line">|</span></li>
+                <li><a href="contact-v2.html" class="nav-link">Contact Us</a></li>
+            </ul>
+        </div>
+
+    <!-- </div> -->
+        <!-- mobile hamburger -->
+        <div class="nav-mobile">
+            <button type="button" class="nav-mobile-toggle" id="nav-mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <ul class="mobile-nav-list" id="mobile-nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us </a></li>
+                <li><a href="service.html" class="nav-link">Our Service</a></li>
+                <li><a href="WorkOfUs.html" class="nav-link">Career</a></li>
+                <li><a href="contact-v2.html" class="nav-link">Contact Us</a></li>
+               </ul>
+        </div>
+    </nav>  
+    <section>
+        <div class="coverImg" style="margin: auto; text-align: center;padding-top: 100px;"><img src="cover.jpg" alt="cover" style="width: 75%;"></div>
+
+
+        <div class="section-center featured-center">
+            <article class="info-card" onclick="About()">
+               <div class="info-img-container">
+                   <img src="coverImg1.jpg"  class="info-img" alt="" style="padding: 20px;">
+
+               </div>
+               <div class="info-info">
+                   <h2 style="border: 3px solid white; padding: 20px; text-align: center; color: white;">About Us</h2>
+                   
+               </div>
+
+            </article>
+            <article class="info-card" onclick="Service()">
+               <div class="info-img-container">
+                   <img src="coverImg2.jpg" class="info-img" alt="" style="padding: 20px;">
+
+               </div>
+               <div class="info-info">
+                   <h2 style="border: 3px solid white; padding: 20px; text-align: center; color: white;">Our Service</h2>
+
+               </div>
+
+            </article>
+            <article class="info-card" onclick="Career()">
+               <div class="info-img-container">
+                   <img src="coverImg3.jpg" class="info-img" alt="" style="padding: 20px;">
+                   
+               </div>
+               <div class="info-info">
+                   <h2 style="border: 3px solid white; padding: 20px; text-align: center; color: white;">Career</h2>
+
+               </div>
+
+            </article>
+            <article class="info-card" onclick="Contact()">
+               <div class="info-img-container" >
+                   <img src="coverImg4.jpg" class="info-img"  alt="" style="padding: 20px;">
+    
+               </div>
+               <div class="info-info">
+                   <h2 style="border: 3px solid white; padding: 20px; text-align: center; color: white;">Contact Us</h2>
+
+               </div>
+
+            </article>
+</div>
+    </section>
+<script src="script.js"></script>
 </body>
 </html>
