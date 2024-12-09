@@ -39,7 +39,7 @@
     --radius : 0.5rem;
     --light-shadow : 0 5px 15px rgba(0,0,0,0.1);
     --dark-shadow : 0 5px 15px rgba(0,0,0,0.2);
-    --navbar-Height: 4rem;
+    --navbar-Height: 10rem;
 }
 
 @font-face {
@@ -80,26 +80,28 @@ navbar
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+    /* flex-direction: row-reverse; */
 }
 /* logo container */
 .nav-logo {
-    width: 35px;
-    height: 35px;
-    margin: 40px;
+    width: 100px;
+    height: 100px;
+    /* margin: 78px; */
+    padding-top:10px ;
+    margin-left: 17.5px;
+    
 }
 
 /* nav-list ul all the links */
 .nav-list {
     display: flex;
 }
-.nav-links{
-    padding-right: 100px;
-}
+
 
 
 /* links item */
 .nav-link {
-    margin: 10px;
+    margin: 25px;
     text-transform: capitalize;
     color: black;
     font-size: 24px;
@@ -552,7 +554,7 @@ h1{
     .mobile-nav-list.active {
         /* transform: translateY(100%); */
         position: fixed;
-        top: 4rem;
+        top: var(--navbar-Height);
         transform: translateX(0);
         bottom: 0;
         right: 0;
@@ -574,12 +576,20 @@ h1{
 @media(min-width:1033px){
     .section-center.featured-center{
         display: flex;
-        flex-wrap: nowrap;
-        max-width: 1500px;
+        flex-wrap: wrap;
+        /* max-width: 1500px; */
         justify-content: space-between;
     }
+    .coverImg{
+        width: 100%;
+        /* padding-top: 100px; */
+        text-align: center;
+    }
+    .coverMainImg{
+       width: 97.4%;
+    }
 .info-card{
-    width: 30%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
