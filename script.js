@@ -19,5 +19,5 @@ function Career(){
 }0
 
 function Contact(){
-    window.open(`contact-v2.html` , `_self`);
+    window.open(`contact.html` , `_self`);
 }
