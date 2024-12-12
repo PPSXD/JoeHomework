@@ -264,8 +264,11 @@ button{
         p, h3{
             margin-bottom: 20px;
         }
-        font-size: 35px;
+        font-size: 20px;
         padding: 35px;
+    }
+    #service-2-info{
+        grid-template-columns: 1fr 4fr;
     }
     }
     @media(max-width:1033px){
@@ -306,8 +309,13 @@ button{
             p, h3{
                 margin-bottom: 20px;
             }
-            font-size: 35px;
+            font-size: 20px;
         }
+        #work-center-2{
+            padding: 0;
+            grid-template-columns: 4fr 2fr;
+        }
+
         }
         @media(max-width:1033px){
             .work-center{
