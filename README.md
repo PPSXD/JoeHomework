@@ -1,1 +1,1 @@
-https://ppsxd.github.io/JoeHomework/about.html
+https://ppsxd.github.io/JoeHomework/index.html
