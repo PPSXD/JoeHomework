@@ -363,7 +363,9 @@ button{
             font-size: 20px;
         }
         .map-v1{
-        margin: auto;text-align: center; padding: 20px;
+        margin: auto;
+        /* text-align: center;  */
+        padding: 20px;
         }
         
         .map-v2{
@@ -378,7 +380,9 @@ button{
             width: 90vw;
             margin: auto;
         }
-
+        .copyright{
+            font-size: 20px;
+        }
 
 
 
